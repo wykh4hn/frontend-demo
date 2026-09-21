@@ -8,3 +8,10 @@ $secondary-accent: #287C96; /*dark cyan - secondary accent color*/
 $main-text: #ebeef2; /*cold white - main text color*/
 $paragraph-text: #9DA3A6; /*cold gray - paragraph text color*/
 $muted-text: #6C8088; /*muted gray - muted text color*/
+
+/*BASIC SETUP*/
+body {
+  background-color: $background-navy-black;
+  color: $main-text;
+}
+
