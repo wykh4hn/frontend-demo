@@ -1,0 +1,47 @@
+/*main background*/
+/*navbar background*/
+/*deep teal - card color*/
+/*muted teal - border color*/
+/*main accent color*/
+/*neon cyan - bright accent color*/
+/*dark cyan - secondary accent color*/
+/*cold white - main text color*/
+/*cold gray - paragraph text color*/
+/*muted gray - muted text color*/
+/*BASIC SETUP*/
+body {
+  background-color: #000C14;
+  color: #ebeef2;
+  font-family: "Exo 2", sans-serif;
+}
+
+/*NAVBAR*/
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*! Like I said, I'm learning and now this is the time */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.navbar_container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.navbar_logo {
+  color: #3ac6da;
+  text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+}/*# sourceMappingURL=index.css.map */

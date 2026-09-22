@@ -1,3 +1,8 @@
+//FONTS
+$heading-font: 'Space Grotesk', sans-serif;
+$paragraph-font: 'Exo 2', sans-serif;
+
+//COLORS
 $background-navy-black: #000C14; /*main background*/
 $navbar-teal-navy: #031821; /*navbar background*/
 $card: #07252E; /*deep teal - card color*/
@@ -11,7 +16,43 @@ $muted-text: #6C8088; /*muted gray - muted text color*/
 
 /*BASIC SETUP*/
 body {
-  background-color: $background-navy-black;
-  color: $main-text;
+    background-color: $background-navy-black;
+    color: $main-text;
+    font-family: $paragraph-font;
 }
 
+/*NAVBAR*/
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*! Like I said, I'm learning and now this is the time */
+//Nesting 
+.navbar {
+
+    //i want the navbar to be transparated tho
+    position: absolute;
+    top: 0;
+    left: 0;    
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    &_container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    &_logo {
+        color: $main-accent;
+        text-decoration: none;
+        font-family: $heading-font;
+    }
+}
