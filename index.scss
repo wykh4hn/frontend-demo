@@ -117,3 +117,31 @@ body {
         width: 45%;
     }
 }
+
+.button--primary{
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 12px 24px;
+    margin-top: 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    &:hover {
+        background: #ffffff;
+        color: #000c14;
+    }
+}
+
+.button--secondary {
+    background: $main-accent;
+    border: 1px solid $main-accent;
+    color: #000c14;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-top: 40px;
+    border-radius: 6px;
+    &:hover {
+        background: transparent;
+        color: $main-accent;
+    }
+}
