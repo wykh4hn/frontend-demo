@@ -116,6 +116,12 @@ body {
     &_content {
         width: 45%;
     }
+
+    &_actions {
+        display: flex;
+        gap: 16px;
+        margin-top: 56px;
+    }
 }
 
 .button--primary{
@@ -123,7 +129,6 @@ body {
     border: 1px solid #ffffff;
     color: #ffffff;
     padding: 12px 24px;
-    margin-top: 40px;
     border-radius: 6px;
     text-decoration: none;
     &:hover {
@@ -138,10 +143,16 @@ body {
     color: #000c14;
     padding: 12px 24px;
     text-decoration: none;
-    margin-top: 40px;
     border-radius: 6px;
     &:hover {
         background: transparent;
         color: $main-accent;
     }
 }
+
+//ABOUT SECTION
+
+/*!New section to learn, this section are about grid, fr, and flexbox */
+//it's great to use flexbox for one-dimensional layouts, 
+//but for two-dimensional layouts, CSS Grid is the way to go. 
+//It allows you to create complex layouts with ease and provides more control over the placement of elements.
